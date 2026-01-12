@@ -2,13 +2,12 @@
 nixPkgs = [
   "php82",
   "php82Packages.composer",
-  "php82Extensions.exif",
   "php82Extensions.pdo_mysql"
 ]
 
 [phases.build]
 cmds = [
-  "composer install --no-dev --optimize-autoloader"
+  "composer install --no-dev --optimize-autoloader --ignore-platform-req=ext-exif"
 ]
 
 [start]
