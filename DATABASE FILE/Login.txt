@@ -1,0 +1,7 @@
+Admin
+email	: admin@mail.com
+Pass	: zacx2510
+
+Customer
+email	: customer@mail.com
+Pass	: zacx2510
